@@ -1,0 +1,16 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Pump P-101,Centrifugal Pump,150.5,3.2,45.0
+Pump P-102,Centrifugal Pump,175.0,3.5,48.5
+Heat Exchanger HX-201,Shell and Tube,320.0,2.8,120.0
+Heat Exchanger HX-202,Plate,280.0,2.5,95.0
+Reactor R-301,CSTR,450.0,5.5,180.0
+Reactor R-302,PFR,380.0,6.2,195.0
+Compressor C-401,Reciprocating,500.0,8.0,65.0
+Compressor C-402,Centrifugal,550.0,7.5,70.0
+Column T-501,Distillation,200.0,1.8,105.0
+Column T-502,Absorption,180.0,1.5,55.0
+Tank TK-601,Storage,0.0,1.0,25.0
+Tank TK-602,Mixing,100.0,1.2,35.0
+Valve V-701,Control,250.0,4.0,60.0
+Valve V-702,Safety,0.0,6.0,75.0
+Filter F-801,Cartridge,120.0,2.0,40.0

@@ -1,0 +1,50 @@
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 100;
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .app-footer {
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .app-footer p {
+    color: #aaa;
+  }
+
+  .footer-link {
+    color: #4dabf7;
+  }
+
+  .footer-link:hover {
+    color: #74c0fc;
+  }
+}
